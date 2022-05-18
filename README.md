@@ -1,2 +1,3 @@
 # flood
-A Flood-Fill Algorithm writtem in JavaScript
+##### https://magnogen.net/flood
+## A Flood-Fill Algorithm for Creative Coders
