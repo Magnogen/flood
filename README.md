@@ -8,7 +8,7 @@ You're welcome to snoop around to see how it works, maybe even make a pull reque
 
 ### How it works
 Simply click anywhere in the page to start the flooding process.
-It works by spreading the colour to its neighbours, and tweaking the colour of the new neighbours slightly as it does so.
+It works by spreading colour to its transparent neighbours, and tweaking the colour of those neighbours slightly from the original.
 This results in a sort of circular shape with pretty patterns and... why don't you just go there and see for yourself!
 
 ### Plans for the future
