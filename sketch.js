@@ -84,7 +84,7 @@ function random_bm() {
     let [r, g, b] = [imgdata.data[i], imgdata.data[i+1], imgdata.data[i+2]];
     
     let i_ = 4 * ((y-1) * c.width + x);
-    if (y-1 > 0 && imgdata.data[i_+3] == 0) {
+    if (y-1 >= 0 && imgdata.data[i_+3] == 0) {
       imgdata.data[i_+0] = r + deltaColour*random_bm();
       imgdata.data[i_+1] = g + deltaColour*random_bm();
       imgdata.data[i_+2] = b + deltaColour*random_bm();
@@ -92,7 +92,7 @@ function random_bm() {
       list.push( i_ );
     }
     i_ = 4 * (y * c.width + x-1);
-    if (x-1 > 0 && imgdata.data[i_+3] == 0) {
+    if (x-1 >= 0 && imgdata.data[i_+3] == 0) {
       imgdata.data[i_+0] = r + deltaColour*random_bm();
       imgdata.data[i_+1] = g + deltaColour*random_bm();
       imgdata.data[i_+2] = b + deltaColour*random_bm();
