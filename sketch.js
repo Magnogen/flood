@@ -7,8 +7,8 @@ let list = [];
 
 c.width  = c.offsetWidth;
 c.height = c.offsetHeight;
-// c.width  = 1920*2;
-// c.height = 1920*2;
+c.width  *= 2;
+c.height *= 2;
 let imgdata = ctx.getImageData(0, 0, c.width, c.height);
 
 const mouse = {
