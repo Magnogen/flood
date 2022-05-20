@@ -77,7 +77,7 @@ function random_bm() {
     }
     
     let index = 0|(Math.random()*list.length);
-    // index = 0|(9999*list.length/10000);
+    index = 0|(9999*list.length/10000);
     // index = 0;
     const i = list[index];
     const [x, y] = [(i/4)%c.width, 0|((i/4)/c.width)];
