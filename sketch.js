@@ -66,7 +66,7 @@ function random_bm() {
 
 (async () => {
   
-  const deltaColour = 6;
+  const deltaColour = 1;
   
   let last = performance.now();
   while (true) {
